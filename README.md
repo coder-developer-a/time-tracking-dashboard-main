@@ -31,8 +31,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [https://www.frontendmentor.io/solutions/responsive-design-reactjs-modular-programming-C98sdeGY4]
+- Live Site URL: [https://coder-developer-a.github.io/time-tracking-dashboard-main]
 
 ## My process
 
@@ -50,6 +50,6 @@ Better and bigger frontend development
 
 ## Author
 
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/coder-developer-a)
+- Frontend Mentor - [@coder-developer-a]
 - Instagram account - @aboutaleb.kh
 

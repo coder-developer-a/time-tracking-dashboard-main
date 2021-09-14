@@ -18,7 +18,7 @@ const Profile = () => {
             monthly = 'active-link';
             break;
         default:
-            daily = '';
+            daily = 'active-link';
             weekly = '';
             monthly = '';
             break;

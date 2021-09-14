@@ -1,38 +1,97 @@
-.App {
-  text-align: center;
+:root {
+    --blue: hsl(246, 80%, 60%);
+    --orange: hsl(15, 100%, 70%);
+    --softBlue: hsl(195, 74%, 62%);
+    --lightRed: hsl(348, 100%, 68%);
+    --limeGreen: hsl(145, 58%, 55%);
+    --violet: hsl(264, 64%, 52%);
+    --softOrange: hsl(43, 84%, 65%);
+    --veryDarkBlue: hsl(226, 43%, 10%);
+    --darkBlue: hsl(235, 46%, 20%);
+    --desaturatedBlue: hsl(235, 45%, 61%);
+    --paleBlue: hsl(236, 100%, 87%);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500&display=swap');
+
+
+
+
+
+.container {
+    display: flex;
+    justify-content: center;
+    background-color: var(--veryDarkBlue);
+    width: 100vw;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.app {
+    width: 80%;
+    display: grid;
+    grid-template-columns: 100%;
+    gap: 1.5rem;
+    justify-content: center;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    font-family: 'Rubik', sans-serif;
+    color: white;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.font-weight-300 {
+    font-weight: 300;
 }
 
-.App-link {
-  color: #61dafb;
+.font-weight-400 {
+    font-weight: 400;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.font-weight-500 {
+    font-weight: 500;
+}
+
+.font-color-paleblue {
+    color: var(--paleBlue);
+}
+
+.font-color-desaturatedblue {
+    color: var(--desaturatedBlue);
+}
+
+.font-color-white {
+    color: white;
+}
+
+.set-font-size-name {
+    font-size: 24px;
+}
+
+.set-font-size-hrs {
+    font-size: 24px;
+}
+
+@media (min-width: 576px) {
+    .container {
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .app {
+        width: 70vw;
+        position: relative;
+        display: grid;
+        grid-template-columns: 25% 25% 25% 25%;
+        gap: 3rem;
+        justify-content: center;
+        margin: 0rem;
+    }
+    .set-font-size-name {
+        font-size: 40px;
+    }
+    .set-font-size-hrs {
+        font-size: 45px;
+    }
 }

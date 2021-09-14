@@ -17,7 +17,7 @@ function App() {
       <div className='app'>
         <Router>
           <Switch>
-            <Route path='/daily'>
+            <Route path={'/' || '/daily'}>
               <Profile />
               { items.map(item => <Item title={item.title} timeframes='Day' timeline={item.timeframes.daily}/>) }
             </Route>

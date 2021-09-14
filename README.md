@@ -50,6 +50,6 @@ Better and bigger frontend development
 
 ## Author
 
-- Frontend Mentor - [@coder-developer-a]
+- Frontend Mentor - [@coder-developer-a](https://www.frontendmentor.io/profile/coder-developer-a)
 - Instagram account - @aboutaleb.kh
 
